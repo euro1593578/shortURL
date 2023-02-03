@@ -1,0 +1,52 @@
+*{
+    font-size: 20px;
+}
+.input_url{
+    text-align: center;
+    font-size: 23px;
+}
+.input_url input{
+    text-align: center;
+    width: 25%;
+    height: 1rem;
+}
+.input_url button{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.show{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 23px;
+}
+.show input{
+    text-align: center;
+    width: 25%;
+    height: 1rem;
+}
+.table{
+
+    margin-top: 3rem;
+    text-align: center;
+}
+.table thead td{
+    border: 1px solid black;
+}
+.qr_code{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 23px;
+}
+.qr_show{
+    text-align: center;
+    font-size: 23px;
+}
+.qr_show img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}

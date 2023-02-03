@@ -1,0 +1,18 @@
+วิธีการติดตั้ง Short URL App
+
+1. Download ไฟล์ทั้งหมดจาก link
+2. ดาวโหลดและติดตั้ง Xammp ที่ https://www.apachefriends.org/download.html
+3. นำไฟล์ (ข้อ1) ไปวางไว้ใน Floder ที่ติดตั้ง Xammp เช่น E:\xampp\htdocs\(ที่ตั้งของไฟล์)
+4. ทำการแตกไฟล์ออกมา
+5. ติดตั้ง Database
+	5.1 เปิดโปรแกรม Xammp และคลิ๊ก Start ที่ Module ของ MySQL และ Apache
+	5.2 มองที่ช่องของ MySQL และคลิ๊กที่คำว่า Admin
+	5.3 มองหาคำว่า New ทางด้านซ้ายของจอแล้วคลิ๊ก
+	5.4 ใส่ข้อความ Database Name = test ช่องถัดมาให้เลือก ucf8_general_ciแล้วกด
+		Create
+	5.5 ให้มองด้านบนของจอหาข้อความ Import แล้วคลิ๊ก เมื่อเข้ามาแล้วให้เลือก Choosen File
+	5.6 เข้าไปที่ Folder ตามที่แตกไฟล์ (ข้อ3) หา file ชื่อว่า test.sql แล้วกดopen
+	5.7 เลื่อนลงมาด้านล่างสุดกดคำว่า Import
+6.เปิดBrowser แล้วพิมพ์คำว่า http://localhost/test/index.php ที่ช่อง URL แล้ว
+		กด Enter ก็จะเข้าถึง Application ได้
+	
